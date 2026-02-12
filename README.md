@@ -51,8 +51,6 @@
 **CVE-2026-25251 + Hardware Persistence**:  
 [Full Dislcosure ](https://github.com/Str8tdr0p/unblown-fuses-iphone-promo)
 
-## iPhone 12 Foreign Infra (Partial Release)
-[foreign-infra-tracking.md ](https://github.com/JGoyd/The-Wildnerness/blob/main/foreign_infra_tracking.md)
 
 ---
 
