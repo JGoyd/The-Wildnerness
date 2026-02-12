@@ -1,5 +1,5 @@
 # Multi-Device Live Incident Escalation
-**Independent Researcher vs FBI Atlanta Stonewall** | **CISA Hand-Off** | Feb 6-11, 2026  
+**Independent Researcher vs FBI Atlanta Stonewall** | **CISA Hand-Off** | Feb 6-ongoing, 2026  
 **[CISA VINCE VU#132084.1](https://github.com/Str8tdr0p/unblown-fuses-iphone-promo/blob/main/VINCE/vu132084-description.png)** validates hardware persistence | production fuses=0. 
 
 
