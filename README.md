@@ -1,5 +1,5 @@
 # Multi-Device Live Incident Response Escalation
-**Independent Researcher vs FBI Atlanta Stonewall** | **CISA Cooperative** | Feb 6-11, 2026  
+**Independent Researcher vs FBI Atlanta Stonewall** | **CISA Hand-Off** | Feb 6-11, 2026  
 **[CISA VINCE VU#132084.1](https://github.com/Str8tdr0p/unblown-fuses-iphone-promo/blob/main/VINCE/vu132084-description.png)** validates hardware persistence | production fuses=0. 
 
 
@@ -29,7 +29,7 @@
 | **Feb 10 2:54PM** | Incident Responder → CISA Coordinator | "No sir... daily token theft since Friday" | Ongoing ops |
 | **Feb 10 2:59PM** | CISA Coordinator | Forward FBI Agent + Liaison | FBI pivot |
 | **Feb 10 3:20PM** | Incident Responder → FBI Agent | Full thread: "Can we discuss?" | Direct FBI |
-| **Feb 10 5:47PM** | FBI Agent | IC3 intake; teleporter link | Portal opens (48h delay) |
+| **Feb 10 5:47PM** | FBI Agent | IC3 intake; teleporter link | Portal opens |
 | **Feb 10 6:27PM** | Incident Responder → FBI Agent | iPhone 12: Israel 8200/Taiwan/32 IOCs | FI vs cybercrime? |
 | **Feb 11 00:11AM** | Incidet Responder → FBI Agent | [GitHub: unblown-fuses-iphone-promo](https://github.com/Str8tdr0p/unblown-fuses-iphone-promo) | Hardware persistence |
 | **Feb 11 2:31PM** | Incident Responder → FBI/CISA | 02.08 ZIP: CoreSight 0x2081(8x), iCloud exfil scripts | Examined? UCG? |
