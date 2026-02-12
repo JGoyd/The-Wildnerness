@@ -60,8 +60,11 @@
 ```
 The-Wilnderness/
 ├── README.md
-├── complete-incident-escalation-feb6-11.pdf     # Full CISA/FBI thread
-└── foreign-infra-tracking.md                    # Device 2 IOCs (FBI-held)
+└── complete-incident-escalation-feb6-11.pdf     # Full CISA/FBI thread
+Active Infrastructure Mapping/  
+├── Device 2 IOCs.md                            (What the FBI didn't care to see)
+└── Device 1 Enriched 02.12                      
+
 ```
 
 ## Incident Responder 
