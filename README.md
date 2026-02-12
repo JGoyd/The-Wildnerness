@@ -1,6 +1,6 @@
 # Multi-Device iPhone Incident Response Escalation
 **Independent Researcher vs FBI Atlanta Stonewall** | **CISA Cooperative** | Feb 6-11, 2026  
-**CISA VINCE VU#132084.1** validates hardware persistence | production fuses=0. **6 KEV CVEs total** across devices.
+**[CISA VINCE VU#132084.1](https://github.com/Str8tdr0p/unblown-fuses-iphone-promo/blob/main/VINCE/vu132084-description.png)** validates hardware persistence | production fuses=0. 
 
 ## The Incident
 **Live nation-state iPhone supply chain compromise** targeting US persons:
@@ -29,20 +29,20 @@
 | **Feb 6 11:13PM** | Incident Responder → CISA Advisor | le.com(74x), yandex.net | Ethics drop |
 | **Feb 7 9:33AM** | Incident Responder → CISA Advisor | 3 more KEVs: CVE-2023-41064, -2025-43529, -24085 | Secure comms demand |
 | **Feb 7 6:06PM** | Incident Responder → CISA Advisor/Liaison| 24h delay flag (AG/FBI/6USC directives) | Formal escalation |
-| **Feb 10 2:24PM** | **Incident Responder → CISA Coordinator FWD** | "**FULL ONGOING THREAD**: Escalated by Incident Responder... foreign infra post-patch KEVs" | **REGION 4 ESCALATION** |
+| **Feb 10 2:24PM** | **Incident Responder → CISA Coordinator FWD** | **FULL ONGOING THREAD**: Escalated by Incident Responder... foreign infra post-patch KEVs | **REGION 4 ESCALATION** |
 | **Feb 10 2:51PM** | CISA Coordinator → Incident Responder | "Have spoken to FBI yet?" |  |
 | **Feb 10 2:54PM** | Incident Responder → CISA Coordinator | "No sir... daily token theft since Friday" | Ongoing ops |
 | **Feb 10 2:59PM** | CISA Coordinator | Forward FBI Agent + Liaison | FBI pivot |
 | **Feb 10 3:20PM** | Incident Responder → FBI Agent | Full thread: "Can we discuss?" | Direct FBI |
 | **Feb 10 5:47PM** | FBI Agent | IC3 intake; teleporter link | Portal opens (48h delay) |
 | **Feb 10 6:27PM** | Incident Responder → FBI Agent | iPhone 12: Israel 8200/Taiwan/32 IOCs | FI vs cybercrime? |
-| **Feb 11 00:11AM** | Incidet Responder → FBI Agent | GitHub: unblown-fuses-iphone-promo | Hardware persistence |
+| **Feb 11 00:11AM** | Incidet Responder → FBI Agent | [GitHub: unblown-fuses-iphone-promo](https://github.com/Str8tdr0p/unblown-fuses-iphone-promo) | Hardware persistence |
 | **Feb 11 2:31PM** | Incident Responder → FBI/CISA | 02.08 ZIP: CoreSight 0x2081(8x), iCloud exfil scripts | Examined? UCG? |
 | **Feb 11 5:41PM** | **FBI Agent** | "**Follow-up if questions**" | **FBI HOLD** |
-| **Feb 11 ~10PM** | **Incident Responder → FBI Agent** | **"10-4 Joe... iPhone 14 Pro COMPLETE (02.07 KEV + 02.08 CoreSight)"** | **"CASE ID? iPhone 12 telemetry ready"** |
+| **Feb 11 ~5:55PM** | **Incident Responder → FBI Agent** | **"10-4 Joe... iPhone 14 Pro COMPLETE (02.07 KEV + 02.08 CoreSight)"** | **"CASE ID? iPhone 12 telemetry ready"** |
 
 ## Chain of Custody
-[Complete CISA→FBI Thread →](/complete-incident-escalation-feb6-11.pdf)
+[Complete CISA→FBI Thread](https://github.com/JGoyd/The-Wildnerness/blob/main/complete-incident-escalation-feb6-11.pdf)
 
 **iPhone 14 Pro**: Portal + GitHub + Email → FBI hold  
 **iPhone 12**: 32 live IOCs **never submitted** (no FBI case ID)
@@ -54,21 +54,20 @@
 | 02.08 | CVE-2026-25251 CoreSight 0x2081 (fuses=0) + iCloud exfil | Portal ZIP |
 
 **CVE-2026-25251 + Hardware Persistence**:  
-https://github.com/Str8tdr0p/unblown-fuses-iphone-promo
+[Full Dislcosure ](https://github.com/Str8tdr0p/unblown-fuses-iphone-promo)
 
-## iPhone 12 Foreign Infra (FBI-Never-Seen)
-[foreign-infra-tracking.md →](./foreign-infra-tracking.md)
+## iPhone 12 Foreign Infra (Partial Release)
+[foreign-infra-tracking.md →](https://github.com/JGoyd/The-Wildnerness/blob/main/foreign_infra_tracking.md))
 
-unblown-fuses-incident/
+```
+The-Wilnderness/
 ├── README.md
 ├── complete-incident-escalation-feb6-11.pdf     # Full CISA/FBI thread
 └── foreign-infra-tracking.md                    # Device 2 IOCs (FBI-held)
-
-
+```
 
 ## Incident Responder 
 **Joseph Goydish II**  
 Atlanta, GA    
 
 
-***
