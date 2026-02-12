@@ -1,8 +1,10 @@
-# Multi-Device iPhone Incident Response Escalation
+# Multi-Device Live Incident Response Escalation
 **Independent Researcher vs FBI Atlanta Stonewall** | **CISA Cooperative** | Feb 6-11, 2026  
 **[CISA VINCE VU#132084.1](https://github.com/Str8tdr0p/unblown-fuses-iphone-promo/blob/main/VINCE/vu132084-description.png)** validates hardware persistence | production fuses=0. 
 
+
 ## The Incident
+### Active as of 02/12/2026
 **Live nation-state iPhone supply chain compromise** targeting US persons:
 
 | Device | Model | KEV CVEs | Evidence Status | Key Findings |
@@ -10,13 +12,6 @@
 | **Device 1** | iPhone 14 Pro Max (D74AP) | **3 KEVs**<br>CVE-2025-24200<br>-43200<br>-43300 | **FBI portal 2/10-11**<br>(SHA256 logged) | **CoreSight 0x2081 fuses=0** + iCloud exfil |
 | **Device 2** | iPhone 12 | **3 KEVs**<br>CVE-2023-41064<br>-2025-43529<br>-2025-24085 | **Withheld**<br>(32+ telephony IOCs) | **India IPsec→Israeli surveillance chain** |
 
-
-# iPhone 14 Pro KEV Bypass + Hardware Persistence
-
-**Timeline**: Feb 6-11 2026  
-**Devices**: 
-- **iPhone 14 Pro**: KEV bypass + CoreSight persistence → FBI submitted
-- **iPhone 12**: Foreign infra + 32 telephony C2 IOCs → **FBI never seen**
 
 ## Complete Escalation Timeline
 | Date/Time | Sender | Key Action/Artifacts | Status/Questions |
@@ -39,7 +34,7 @@
 | **Feb 11 00:11AM** | Incidet Responder → FBI Agent | [GitHub: unblown-fuses-iphone-promo](https://github.com/Str8tdr0p/unblown-fuses-iphone-promo) | Hardware persistence |
 | **Feb 11 2:31PM** | Incident Responder → FBI/CISA | 02.08 ZIP: CoreSight 0x2081(8x), iCloud exfil scripts | Examined? UCG? |
 | **Feb 11 5:41PM** | **FBI Agent** | "**Follow-up if questions**" | **FBI HOLD** |
-| **Feb 11 ~5:55PM** | **Incident Responder → FBI Agent** | **"10-4 Joe... iPhone 14 Pro COMPLETE (02.07 KEV + 02.08 CoreSight)"** | **"CASE ID? iPhone 12 telemetry ready"** |
+| **Feb 11 5:55PM** | **Incident Responder → FBI Agent** | **"10-4 Joe... iPhone 14 Pro COMPLETE (02.07 KEV + 02.08 CoreSight)"** | **"CASE ID? iPhone 12 telemetry ready"** |
 
 ## Chain of Custody
 [Complete CISA→FBI Thread](https://github.com/JGoyd/The-Wildnerness/blob/main/complete-incident-escalation-feb6-11.pdf)
@@ -57,8 +52,11 @@
 [Full Dislcosure ](https://github.com/Str8tdr0p/unblown-fuses-iphone-promo)
 
 ## iPhone 12 Foreign Infra (Partial Release)
-[foreign-infra-tracking.md →](https://github.com/JGoyd/The-Wildnerness/blob/main/foreign_infra_tracking.md))
+[foreign-infra-tracking.md ](https://github.com/JGoyd/The-Wildnerness/blob/main/foreign_infra_tracking.md)
 
+---
+
+**Repo Structure**
 ```
 The-Wilnderness/
 ├── README.md
