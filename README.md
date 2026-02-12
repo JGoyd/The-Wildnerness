@@ -34,7 +34,7 @@
 | **Feb 11 00:11AM** | Incidet Responder → FBI Agent | [GitHub: unblown-fuses-iphone-promo](https://github.com/Str8tdr0p/unblown-fuses-iphone-promo) | Hardware persistence |
 | **Feb 11 2:31PM** | Incident Responder → FBI/CISA | 02.08 ZIP: CoreSight 0x2081(8x), iCloud exfil scripts | Examined? UCG? |
 | **Feb 11 5:41PM** | **FBI Agent** | "**Follow-up if questions**" | **FBI HOLD** |
-| **Feb 11 5:55PM** | **Incident Responder → FBI Agent** | **"10-4 Joe... iPhone 14 Pro COMPLETE (02.07 KEV + 02.08 CoreSight)"** | **"CASE ID? iPhone 12 telemetry ready"** |
+| **Feb 11 5:55PM** | **Incident Responder → FBI Agent** | **"10-4... iPhone 14 Pro COMPLETE (02.07 KEV + 02.08 CoreSight)"** | **"CASE ID? iPhone 12 telemetry ready"** |
 
 ## Chain of Custody
 [Complete CISA→FBI Thread](https://github.com/JGoyd/The-Wildnerness/blob/main/complete-incident-escalation-feb6-11.pdf)
