@@ -16,7 +16,7 @@ SHA256: 113e62661363cccc87a18b225b10e2ca08d2b0326be63a7592d1ab05e70cb042
 Cross-analysis reveals **state-grade metadata masquerading** across two unified logs:
 
 - **C2 IPs injected into iOS "Build/Version" strings** `8623.1.14.10.9(26.2`
-- **Triple-jurisdiction infrastructure**: UK `62.6.0.3`, South Korea `1.14.10.9`, US mask `23.3.71.0`
+- **Triple-jurisdiction infrastructure**: FR `62.6.0.3`, South Korea `1.14.10.9`, US mask `23.3.71.0`
 - **RSR/Splat Restore hijacking** `23.3.71.0.0` as build string
 - **WombatStream** persistence + **App.Intents.Transcript** targeting
 
@@ -24,7 +24,7 @@ Cross-analysis reveals **state-grade metadata masquerading** across two unified 
 
 | Type | Value | File | Description |
 |------|-------|------|-------------|
-| **IP (UK)** | `62.6.0.3` | Both | Visual/Camera telemetry |
+| **IP (FR)** | `62.6.0.3` | Both | Visual/Camera telemetry |
 | **IP (SK)** | `1.14.10.9` | Both | Keyboard/Input telemetry |
 | **IP (Mask)** | `23.3.71.0` | 110 | Akamai edge signaling |
 | **Build A** | `4097.62.6.0.3(2.0)` | 03f | Media exfil spoof |
