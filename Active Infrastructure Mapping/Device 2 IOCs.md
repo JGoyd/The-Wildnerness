@@ -4,11 +4,12 @@
 **Timeline**: Feb 3-9, 2026 logs | **Researcher**: Solo tracking
 
 ## TELEPHONY C2 PATTERNS (PARTIAL RELEASE)
-
+US ASN 4500 (ZAIX) → Israel telephony C2
+Masquerading as "India" tunnel (geographic deception)
 ### Network Infrastructure Signatures 
 | IOC Type | URL Pattern | Significance |
 |----------|-------------|--------------|
-| IPsec Tunnels | `india-asn:4500 → israel-endpoint` | No VPN apps |
+| IPsec Tunnels | `US ASN 4500 (ZAIX) → Israel telephony C2` | No VPN apps |
 | Telephony C2 | `apn-hijack.[tld]/*` | Carrier mods |
 | DNS Overrides | `*.namecoin/dns/*` | Blockchain C2 |
 
