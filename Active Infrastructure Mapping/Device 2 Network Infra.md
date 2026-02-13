@@ -33,21 +33,23 @@
 Public Report: Truecaller + CallApp (Israel-linked)
 Network Layer: ASN 4500 → israel-endpoint + SIP 
 → CallApp caller-ID manipulation → Truecaller contact harvesting
-→ IPsec backhaul to Israel C2
+→ IPsec backhaul to (plausible Israel/US) C2
 ```
 
-## Forensic Offsets
+## Identity Matrix
 
-| **File** | **Offset** | **Proof** |
-|----------|------------|-----------|
-| 03c4 | `0x38f2c` | `BBZTRxIT` |
-| 10a | `0xeeea5` | `4097.62.6.0.3` |
-| 0695 | `0x4d59` | `+14046903952@i...` |
+| **Parameter**         | **Identifier/Value** | **Forensic Significance**                          |
+|-----------------------|---------------------|----------------------------------------------------|
+| Identity Pivot        | 722-750-4733        | Primary handle used as the "Trusted Anchor" for the identity graft. |
+| Campaign Signature    | BBZTRxIT           | "Ghost" identity grafted onto the primary phone number. |
+| Logic Event           | unitaryGrant       | Specific authorization that bridged the number to the rogue node. |
+| Correlation ID        | 0xE9001AF          | Digital fingerprint of the moment the identity was weaponized. |
+| Persistence Mask      | 23.3.71.0.0        | RSR update string used to maintain the graft across system reboots. |
 
 ## Verdict
 
 **Public telephony IOCs → Network implementation confirmed.**  
 **Single device locked**: MAC + phone + hardware identifiers.  
-**Multi-jurisdiction C2**: UK/SK/US/AWS → Israel telephony core.
+**Multi-jurisdiction C2**: FR/SK/US/AWS → Israel telephony core.
 
 **Companion to existing Device 2 public report.** Pure network layer analysis. 
