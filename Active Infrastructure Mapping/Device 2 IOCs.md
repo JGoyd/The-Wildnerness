@@ -1,4 +1,4 @@
-# Device 2 Foreign Infrastructure IOCs (FBI Never Received)
+# Device 2 Foreign Infrastructure IOCs
 
 **Device**: iPhone 12 | **Status**: live telephony C2 indicators
 **Timeline**: Feb 3-9, 2026 logs | **Researcher**: Solo tracking
