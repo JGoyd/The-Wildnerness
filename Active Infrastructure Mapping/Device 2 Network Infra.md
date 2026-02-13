@@ -8,7 +8,7 @@
 | **Indicator** | **Type** | **Role** |
 |---------------|----------|----------|
 | `BBZTRxIT` | Handle | xIT campaign identifier |
-| `62.6.0.3` | IP (UK) | Visual exfil (France - AS15557 Orange S.A.) |
+| `62.6.0.3` | IP (FR) | Visual exfil (France - AS15557 Orange S.A.) |
 | `1.14.10.9` | IP (SK) | Semantic harvest (SK Broadband) |
 | `23.3.71.0.0` | IP Mask | Akamai RSR signaling spoof |
 | `3.5.1.3` | IP (AWS) | ProtonVPN relay exit |
