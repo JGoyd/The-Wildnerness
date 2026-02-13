@@ -12,7 +12,7 @@
 | `1.14.10.9` | IP (SK) | Semantic harvest (SK Broadband) |
 | `23.3.71.0.0` | IP Mask | Akamai RSR signaling spoof |
 | `3.5.1.3` | IP (AWS) | ProtonVPN relay exit |
-| `4097` | Prefix | UK C2 metadata mask |
+| `4097` | Prefix | FR C2 metadata mask |
 | `8623` | Prefix | SK C2 metadata mask |
 | `h.protonmail.vpn` | Domain | Encrypted exfil tunnel |
 | `nUcQKX` | Campaign ID | Secondary IDS marker |
