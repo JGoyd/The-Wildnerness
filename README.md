@@ -10,7 +10,7 @@
 | Device | Model | KEV CVEs | Evidence Status | Key Findings |
 |--------|-------|----------|-----------------|--------------|
 | **Device 1** | iPhone 14 Pro Max (D74AP) | **3 KEVs**<br>CVE-2025-24200<br>-43200<br>-43300 | **FBI portal 2/10-11**<br>(SHA256 logged) | **CoreSight 0x2081 fuses=0** + iCloud exfil |
-| **Device 2** | iPhone 12 | **3 KEVs**<br>CVE-2023-41064<br>-2025-43529<br>-2025-24085 | **Withheld**<br>(32+ telephony IOCs) | **India IPsec→Israeli surveillance chain** |
+| **Device 2** | iPhone 12 | **3 KEVs**<br>CVE-2023-41064<br>-2025-43529<br>-2025-24085 | **Withheld**<br>(32+ telephony IOCs) | **IPsec→Israeli IoC surveillance chain** |
 
 
 ## Complete Escalation Timeline
